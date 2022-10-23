@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 20px;
+	font-weight: 400;
+    font-family: "Montserrat",  sans-serif;
+	
+}
+
+.menu_item {
+    margin-right: 10px;
+	border-radius: 25px;
+    
+};
+.menu_item a {
+	display: block;
+	color: blue;
+	padding: 10px px;
+	text-decoration: none;
+	
+}
+
+.menu_item:hover a {
+	background-color: black;
+	cursor: pointer;
+	color: #ffffff;
+	border-radius: 20px;
+}
+
